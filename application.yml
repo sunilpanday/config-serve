@@ -1,8 +1,10 @@
 spring:
- application:
-  name=user-api
+  application:
+    name: user-api  # The name of your application (to register with Eureka)
+
 eureka:
   client:
-    register-with-eureka=false
-    fetch-registry=false
-    prefer-ip-address=true
+    register-with-eureka: false  
+    fetch-registry: false        
+    prefer-ip-address: true    
+
