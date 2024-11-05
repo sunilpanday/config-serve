@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: user-api  # The name of your application (to register with Eureka)
 
 eureka:
   client:
